@@ -13,12 +13,12 @@
 - **Project Summary**: As one of the largest social media platforms, In this project, Twitter can be used as one barometer of public sentiment. In this project, I attempt to predict tweet sentiment given the input of total retweets. I queried Twitter data containing the keyword 'Trump' between the years of 2018 and 2023, and then selected a segment to run preliminary analysis on. I cleaned and applied sentiment analysis to the Tweets raw datafiles, classifying all Tweets into the categories 'positive', 'negative', and 'neutral'. I employ a variety of comparative machine learning algorithms on the data to attempt to generate an accurate predictive model (Fig. 3, Fig. 4). The best model performs at a little above 47% accuracy. However, since I classified Tweets into three categories, this is higher than would be expected by random chance (33%). While the model is not currently refined enough to practically predict Tweet sentiment outside of this testing environment, it does help inform future research. It is likely that including more variables in the model will refine predictions, resulting in a much higher success rate. For subsequent research, I will also include the variables 'total likes', 'total views', and additional text-based information, such as 'tweet length'. Additionally, I will attempt to run a larger dateset to further refine my models.
 
 ## Quick Links
-| Contents |
-|--------|
-| [Data](https://github.com/Rising-Stars-by-Sunshine/stats201-prediction-Colden/blob/main/data/Queried_Data/scraped_data_trump_2018.csv)|
-| [Code Analyze Data](https://github.com/Rising-Stars-by-Sunshine/stats201-prediction-Colden/blob/main/code/Colden_Johnson_Data_Machine_Learning_for_Predicting_Tweet_Reach.ipynb) |
-| [Code Process Data](https://github.com/Rising-Stars-by-Sunshine/stats201-prediction-Colden/blob/main/code/Colden_Johnson_Process_Data_Prepare_X_and_Y_for_Classification_and_Regressions.ipynb) |
-| [Spotlight Figures](https://github.com/Rising-Stars-by-Sunshine/stats201-prediction-Colden/tree/main/spotlight) |
+| Contents | Data Type |
+|--------|--------|
+| [Data](https://github.com/Rising-Stars-by-Sunshine/stats201-prediction-Colden/blob/main/data/Queried_Data/scraped_data_trump_2018.csv)|CSV File|
+| [Code Analyze Data](https://github.com/Rising-Stars-by-Sunshine/stats201-prediction-Colden/blob/main/code/Colden_Johnson_Data_Machine_Learning_for_Predicting_Tweet_Reach.ipynb) |Jupyter Notebook|
+| [Code Process Data](https://github.com/Rising-Stars-by-Sunshine/stats201-prediction-Colden/blob/main/code/Colden_Johnson_Process_Data_Prepare_X_and_Y_for_Classification_and_Regressions.ipynb) |Jupyter Notebook|
+| [Spotlight Figures](https://github.com/Rising-Stars-by-Sunshine/stats201-prediction-Colden/tree/main/spotlight) |Saved Figures (PNG)|
 
 
 
